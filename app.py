@@ -4,10 +4,10 @@ app = Chalice(app_name='testpipeline')
 
 
 @app.route('/')
-def index():
-    return {'hello': 'world'}
+# def index():
+#     return {'hello': 'world'}
 
-import json
+# import json
 
 def process_string(text):
     import re
